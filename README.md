@@ -1,26 +1,10 @@
 # technoprog_TZ3
-# Foobar
+Техническое задание №3
+содержит в себе все элементы необходимые по заданию
 
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+## Файл mainscript.py
+Реализует функционал работы программы, который необходим по заданию
+## Файл test_mainscript.py
+Содержит в себе все необходимые по заданию тесты
+## Файлы *.txt
+Являются тестовыми наборами данных для тех или иных тестов
