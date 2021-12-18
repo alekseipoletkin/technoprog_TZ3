@@ -18,10 +18,7 @@ jobs:
        
      - name: RunTests
        run : |
-        cd .. 
-        cd ..
-        cd ..
-        pwd
+        ls
         ./test_mainscript.py
     
     
