@@ -15,7 +15,7 @@ jobs:
     steps:
      - name: RunTests
        run : |
-        cd .. 
+        cd /alekseipoletkin/technoprog_TZ3 
         ./test_mainscript.py
       
   
