@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+     - name: Git clone my repo
+       uses: action/checkout@v1
+       
      - name: RunTests
        run : |
         cd .. 
@@ -20,6 +23,8 @@ jobs:
         cd ..
         pwd
         ./test_mainscript.py
+    
+    
       
   
    
