@@ -17,6 +17,8 @@ jobs:
        run : |
         cd .. 
         cd ..
+        cd ..
+        pwd
         ./test_mainscript.py
       
   
