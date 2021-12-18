@@ -8,16 +8,13 @@ on:
   pull_request:
     branches: [ main ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 jobs:
   my_tests:
     runs-on: ubuntu-latest
     
     steps:
-     -name: Print
-      run : echo "Hello"
+     - name: Print
+       run : echo "Hello"
       
   
    
