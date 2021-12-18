@@ -17,9 +17,8 @@ jobs:
        uses: actions/checkout@v1
        
      - name: RunTests
-       run : |
-        chmod +x test_mainscript.py
-        ./test_mainscript.py
+       run : 
+        python -m unittest test_mainscript.py
     
     
       
