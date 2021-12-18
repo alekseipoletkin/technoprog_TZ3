@@ -18,7 +18,7 @@ jobs:
        
      - name: RunTests
        run : |
-        ls
+        chmod +x test_mainscript.py
         ./test_mainscript.py
     
     
