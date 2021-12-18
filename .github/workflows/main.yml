@@ -16,7 +16,7 @@ jobs:
      - name: RunTests
        run : |
         cd .. 
-        run : ./test_mainscript.py
+        ./test_mainscript.py
       
   
    
