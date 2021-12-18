@@ -20,6 +20,10 @@ jobs:
      - name: RunTests
        run : |
         python -m unittest test_mainscript.py
+        if [ "$SEMAPHORE_THREAD_RESULT" = "passed" ]; 
+        then curl --data "message=Success" https://notify.bot.ifmo.su/u/&lt;token&gt;; 
+        else curl --data "message=Failed" https://notify.bot.ifmo.su/u/&lt;token&gt;;
+        fi;
     
       
   
