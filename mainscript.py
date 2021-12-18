@@ -49,6 +49,7 @@ def product(numbers):
 def main():
     filename = input("Введите имя файла:")
     numbers = get_data(filename)
+    #Задание 5 обработка ошибки переполнения
     try:
         print(f'Минимальное число:{minimum(numbers)}')
         print(f'Максимальное число:{maximum(numbers)}')
