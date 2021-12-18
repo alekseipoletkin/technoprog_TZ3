@@ -19,7 +19,6 @@ jobs:
      - name: RunTests
        run : |
         python -m unittest test_mainscript.py
-        import GitHubButton from 'react-github-btn'
     
       
   
