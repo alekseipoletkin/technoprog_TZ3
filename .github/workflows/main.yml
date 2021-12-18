@@ -14,7 +14,7 @@ jobs:
     
     steps:
      - name: RunTests
-       run : cd .. ./test_mainscript.sh
+       run : cd .. ./test_mainscript.py
       
   
    
