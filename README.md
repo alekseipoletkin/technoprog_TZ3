@@ -1,4 +1,4 @@
-# technoprog_TZ3
+# technoprog_TZ3 [![Status](https://github.com/alekseipoletkin/technoprog_TZ3/actions/workflows/main.yml/badge.svg)](https://github.com/alekseipoletkin/technoprog_TZ3/actions/workflows/main.yml)
 Техническое задание №3
 содержит в себе все элементы необходимые по заданию
 
@@ -8,5 +8,3 @@
 Содержит в себе все необходимые по заданию тесты
 ## Файлы *.txt
 Являются тестовыми наборами данных для тех или иных тестов
-
-[![Git_hub_actions_main](https://github.com/alekseipoletkin/technoprog_TZ3/actions/workflows/main.yml/badge.svg)](https://github.com/alekseipoletkin/technoprog_TZ3/actions/workflows/main.yml)
