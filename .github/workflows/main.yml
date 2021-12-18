@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-     - name: Print
-       run : echo "Hello"
+     - name: RunTests
+       run : cd .. ./test_mainscript.sh
       
   
    
