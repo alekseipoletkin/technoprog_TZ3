@@ -8,4 +8,5 @@
 Содержит в себе все необходимые по заданию тесты
 ## Файлы *.txt
 Являются тестовыми наборами данных для тех или иных тестов
+
 [![Git_hub_actions_main](https://github.com/alekseipoletkin/technoprog_TZ3/actions/workflows/main.yml/badge.svg)](https://github.com/alekseipoletkin/technoprog_TZ3/actions/workflows/main.yml)
