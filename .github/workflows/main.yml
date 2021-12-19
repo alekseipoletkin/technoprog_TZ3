@@ -20,14 +20,7 @@ jobs:
      - name: RunTests
        run : |
         python -m unittest test_mainscript.py
-        
-     - uses: yanzay/notify-telegram@v0.1.0
-       if: always()
-       with:
-          chat  : 1281224869
-          token : 5051304149:AAE9CDZI0WTYiSYYKRYspE4owh1eCYrfwCU
-          status: ${{ job.status }}
-     
+
    
     
       
