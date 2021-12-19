@@ -20,7 +20,7 @@ jobs:
      - name: RunTests
        run : |
         python -m unittest test_mainscript.py
-        curl -X POST https://notify.bot.ifmo.su/u/1JUTVH17 -d "message=Hello world"
+        curl -X POST https://notify.bot.ifmo.su/u/1JUTVH17 -d Git_hub_actions_main
     
       
   
